@@ -1,0 +1,65 @@
+O filter vai filtrar o que eu especifiquei no código
+const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
+
+//function callbackFilter(valor, indice, array) {
+//return valor > 10;
+//}
+
+const numerosFiltrados = numeros.filter(callbackFilter);
+
+const numerosFiltrados = numeros.filter(valor => valor > 10);
+console.log(numerosFiltrados);
+
+
+const pessoasComNomeGrande = pessoas.filter(function(ob) {
+return obj.nome.length >= 5;
+});
+
+const pessoasComNomeGrande = pessoas.filter(ob => obj.nome.length >= 7);
+const pessoasComMaisDeCinquentaAnos = pessoas.filter(obj => obj.idade >50);
+
+const nomeTerminaComA = pessoas.filter(obj => {
+return obj.nome.toLowerCase().endsWith('a');
+}
+
+const numeros = random
+const numerosEmDobro = numeros.map(function(valor) {
+return valor * 2;
+});
+console.log(numerosEmDobro);
+
+const numerosEmDobro = numeros.map(valor => valor * 2);
+
+const nomes = pessoas.map(obj => obj.nome);
+console.log(nomes);
+
+obj.id mexe no array/original
+
+Reduce é utilizada pra reduzir o array pra um único elemento
+Map altera alguns dos elementos do array original
+
+const total = numeros.reduce(function(acumulador, valor, índice, array) {
+acumulador += valor;
+// console.log(acumulador, valor);
+return acumulador;
+}, 0);
+console.log(total);
+
+
+pra ser par
+if(valor % 2 === 0) acumulador.push();
+return acumulador;
+array só com números pares
+É melhor usar filter para fazer isso
+
+pra pegar os ímpares você pega
+if(valor % 2 !== 0)
+
+pessoa mais velha
+
+const maisVelha = pessoas.reduce(function(acumulador, valor)) {
+console.log(acumulador, valor);
+});
+
+if(acumulador.idade > valor.idade) return acumulador;
+return valor;

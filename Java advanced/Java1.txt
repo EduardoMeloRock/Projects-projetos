@@ -1,0 +1,7 @@
+Iniciando a variável constants
+O const é um valor constante, se você quiser mudar a variável você utiliza let
+alt+seta move
+Tudo fora de aspas é número e tudo dentro de aspas é string
+Javascript é uma tipagem dinâmica
+Pra saber o tipo de uma coisa você utiliza console.log( typeof(primeiroNumero));
+A soma (+) é utilizada de duas maneiras no javascript, para concatenar/juntar-se ao texto e para somar um número;

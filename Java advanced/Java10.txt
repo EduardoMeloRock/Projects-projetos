@@ -1,0 +1,48 @@
+const array = [1,2,3];
+array.push(4);
+array[0] = 'Luiz';
+console.log(array);
+Colchetes [] são arrays e chaves são objetos {}
+
+O push vai adicionar o número dentro dos parênteses
+
+const pessoa1 = {
+    nome: 'Eduardo',
+    sobrenome: 'Melo',
+    idade: 25
+};
+
+console.log(pessoa1.nome);
+console.log(pessoa1.sobrenome);
+
+O return quando você não especifica exatamente o que é a função
+Vai retornar os dados pra função chave
+
+function criaPessoa (nome, sobrenome, idade) {
+    return {
+        nome: nome,
+        sobrenome: sobrenome,
+        idade:idade
+    }
+}
+
+const pessoa2= criaPessoa('Luiz,', 'Otávio', 25)
+
+Em cima vão ser chamados de parâmetros, os que estão em parênteses
+Os de baixo vão ser chamados de argumentos
+O argumento vai ser passado pro parâmetro
+
+Quando uma propriedade armazena uma função ela é chamada de método
+
+const pessoa1 = {
+    nome: 'Luiz',
+    sobrenome: ' Miranda',
+    idade:25,
+
+    fala () {
+        console.log (`${this.nome} ${this.sobrenome} está falando oi!`);
+    }
+}
+pessoa1.fala();
+
+Objeto e função são o coração do javascript

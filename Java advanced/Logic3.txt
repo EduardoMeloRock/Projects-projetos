@@ -1,0 +1,72 @@
+Atribuição via desestruturação
+const { nome } = pessoa;
+console.log(nome);
+
+const pessoa = {
+nome: 'Luiz',
+sobrenome: 'Miranda',
+idade: 30,
+endereco: {
+rua: ' Av Brasil',
+numero: 320
+}
+}
+
+const { nome, sobrenome } = pessoa;
+console.log(nome, sobrenome);
+
+const {
+endereco: { rua, numero, nedereço } = pessoa
+
+Desestruturação via objeto
+
+For
+
+i é index no for
+for (let i = 0; i <= 5; i++ ) {
+console.log(i);
+
+}
+
+console.log(`Linha ${i}`);
+
+i += 10 pula de 10 em 10
+
+const par = i % 2 === 0 ? 'par' : 'ímpar';
+
+Dom document object model
+#document
+
+Vetor é array de uma dimensão
+
+const frutas= ['Pera', 'Maçã', 'Uva'];
+
+for (let i in frutas) {
+    console.log(i)
+}
+
+Quando você utiliza por ex, frutas.length
+Vai contar todos os elementos dentro do array
+Esse é o for in
+
+O for normal é
+for (let i = 0; i < nome.length; i++) {
+	console.log(nome);
+}
+
+for (let valor of nome) {
+	console.log(valor);
+}
+
+For of retorna apenas o valor
+For in dá certo com objetos e o for of não dá (tem que ser array e string, que tem índice);
+O query seleciona os arquivos que estão no html
+
+getComputedStyle(document.body);
+const backgroundColorBody = estilosBody.backgroundColor;
+console.log(backgroundColorBody);
+
+for (let p of ps) {
+p.style.backgroundColor = backgroundColorBody;
+pstyle.color= '#ffffff';
+}

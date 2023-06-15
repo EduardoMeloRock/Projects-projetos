@@ -1,0 +1,45 @@
+console.log(num1.ToString() +num2);
+Converte para string
+ToFixed arredonda
+isInteger
+
+NaN significa = not a number;
+
+math.floor arredonda pra baixo
+e math.ceil arredonda pra cima
+math.round arredonda pro número mais próximo
+
+Math.max acha o maior número da sequênia
+Math.min puxa o menor da sequência
+math.random gera números aleatórios
+console.log(math.random());
+const aleatorio = math.round(math.random() * (10-5) + 5;
+console.log(aleatorio);
+
+Tudo que tá sendo dito nesses documentos são conceitos básicos do Javascript
+Infinity
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nome = prompt ('Digite seu nome completo');
+    </script>
+    document.body.innerHTML += `O seu nome é: ${nome}<br />`;
+    document.body.innerHTML += `O seu nome é: ${nome}<br />`;
+    document.body.innerHTML += `O seu nome é: ${nome}<br />`;
+    document.body.innerHTML += `O seu nome é: ${nome}<br />`;
+    document.body.innerHTML += `O seu nome é: ${nome}<br />`;
+ 
+</body>
+</html>
+
+let num1 = 9.54578
+let num2 = Math.floor(num1);
+console.log(num2);

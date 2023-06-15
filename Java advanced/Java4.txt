@@ -1,0 +1,19 @@
+Parênteses chama uma função e função executa uma ação
+Alert('');
+Window é a janela do navegador, há muitos dados
+Alert é atalho para window.alert
+window.confirm('Deseja realmente apagar?')
+window.prompt você abre uma caixa com input de texto
+confirm('Confirma que deseja apagar?')
+false
+confirm('confirma que deseja apagar?')
+Função confirm retorna dois valores boolean, false ou true
+
+parseFloat (num1) vai converter o string pra número
+
+const resultado = num1 + num2;
+alert('O resultado da sua conta foi: ' +resultado);
+Eu fiz assim:
+num1 = Number(num1);
+num2 = Number(num2);
+const resultado = num1 + num2;

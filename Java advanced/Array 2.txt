@@ -1,0 +1,24 @@
+const numeros = random
+const numerosPares = numeros.filter(function(valor) {
+return valor % 2 === 0;
+}).map(function(valor) {
+return valor * 2;
+}).reduce(function(ac, valor) {
+return ac + valor;
+});
+
+console.log(numerosPares);
+
+
+.filter(valor => valor % 2 === 0)
+.map(valor => valor * 2)
+.reduce((ac, valor) => ac + valor);
+
+
+For each só está disponível dentro de arrays
+
+a1.forEach(function(valor, indice, array) {
+console.log(valor);
+
+
+a1.forEach(valor => console.log(valor));

@@ -1,0 +1,72 @@
+IIFE -> Immediately invoked function expression
+Você pode invocar a função e executar só referenciando o nome dela com ();
+
+(function(idade, peso, altura) {
+   
+    const sobrenome = 'Darkonda';
+    function criaNome(nome) {
+        return nome + ' ' + sobrenome;
+    }
+    function falaNome() {
+        console.log(criaNome('Lord'));
+    }
+    falaNome();
+    console.log(idade, peso, altura);
+})(23, 90, 1.67);
+
+function criaPessoa(nome, sobrenome) {
+return { nome, sobrenome }
+}
+
+const p1 = criaPessoa('Lord', 'Darkonda');
+console.log(p1);
+/////
+
+function criaPessoa(nome, sobrenome) {
+    return { nome, 
+        sobrenome,
+    fala: function(assunto) {
+        return `${nome} ${sobrenome} está ${assunto}.`;
+    }
+    };
+    }
+    
+    const p1 = criaPessoa('Lord', 'Darkonda'
+
+O this vai chamar o método, this vai se referir ao objeto inteiro
+Vai ser semelhante ao p1 chamar no console log o método fala
+This é quem chama o objeto
+toFixed determina a quantidade de casas decimais
+toFixed(2) são 2 casas decimais
+
+function criaPessoa(nome, sobrenome, a, p) {
+    return { nome, 
+        sobrenome,
+    fala: function(assunto) {
+        return `${nome} ${sobrenome} está ${assunto}.`;
+    },
+    altura: a,
+    peso: p,
+    imc() {
+        const indice = this.peso / (this.altura ** 2);
+        return indice.toFixed(2);
+    }
+};
+}
+    
+    const p1 = criaPessoa('Lord', 'Darkonda', 1.67, 90);
+    console.log(p1.imc())
+    const p2 = criaPessoa('Eduardo','Melo', 1.90, 100)
+    console.log(p2.fala('Falando sobre JS'));
+
+get faz algo fingir ser um atributo do objeto
+Exemplo console.log(p1.imc);
+
+set nomeCompleto(valor) {
+console.log(valor;
+},
+
+Utilizando split volta em array
+Shift remove o primeiro valor e envia 
+Slice corta o último valor
+Join remove os []

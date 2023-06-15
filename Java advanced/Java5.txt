@@ -1,0 +1,55 @@
+Pra resolver o exercício feito pra ficar BCA sem perder os valores
+Você salva uma das variáveis no const, pra deixar o valor definido
+E utiliza assim:
+const varATemp = varA;
+varA = varB;
+varB = varC;
+varC = varATemp;
+
+console.log(varA, varB, varC);
+resultado = B C A;
+
+Você reserva um valor e depois move e utiliza um valor salvo da variável;
+Outra forma mais moderna de alcançar isso é utilizar:
+[varA, varB, varC] = [varB, varC, varA];
+console.log(varA, varB, varC)
+
+Fazendo isso você não precisa criar uma variável a mais, você apenas troca a posição das variáveis existentes
+Nos colchetes seguintes
+Você pode utilizar barras invertidas na hora de utilizar "Um \"texto\"";
+
+A string é indexada no java script
+Vai contando os carácteres
+01234567
+0 representa o primeiro elemento da string
+Você pode pedir o elemento específico da string
+console.log(umaString[4]);
+Você coloca um . pra ver o que tem dentro da string
+(umastring.charAt(6));
+Função concat faz o que um sinal de + faz numa string;
+
+let umaString = "Um texto";
+Console.log(umaString.index0f('texto'));
+lastIndexOf busca de trás pra frente
+Tem o match
+Tem o search
+O search busca especificamente a posição do index
+replace substitui o termo
+(umaString.replace('/um/, 'Outra'));
+Pra ficar repetindo você coloca o /r/g
+umaString.length mostra o tamanho do índice
+let umaString = "O rato roeu a roupa do rei de Roma.";
+
+console.log umaString.slice(2, 6));
+Split divide a string
+
+console.log(umaString.split('r)); console.log(umaString.split(' ', 3));
+
+toUpperCase
+toLowerCase
+
+Função document.write('Um texto');
+document.body.innerHTML ='Qualquer outra coisa';
+Pra ser incrementado é usar +=, utiliza-se <br> pra quebrar linha
+
+When i finish all the basics i'm going to review everything and practice

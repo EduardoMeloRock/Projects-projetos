@@ -1,0 +1,31 @@
+Operador ternário
+É marcado pela função ? 'Valor para verdadeiro' > 'Valor para falso';
+Se você precisar só if e else
+
+const pontuacaoUsuario = 999;
+
+if (pontuacaoUsuario >= 1000) {
+    console.log('Usuário Vip');
+} else {
+    console.log('Usuário Normal')
+}
+
+O mês no java script começa do 0 ao 11
+
+('Dia', data.getDate ());
+data.getMonth
+data.getFullYear
+data.getHours
+data.getMinutes
+data.getSeconds
+data.getMilliseconds
+data.getDay
+
+Switch e case
+
+Review the date exercise if necessary
+
+[a, b, c] = [1, 2, 3]
+o da esquerda é a desestruturação
+
+Dá pra pular valores usando vírgula na desestruturação

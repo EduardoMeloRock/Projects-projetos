@@ -1,0 +1,32 @@
++ - / * e ** (potenciação, eleva um número)
+Pra uma conta ganhar prioridade pode utilizar os parênteses (num1+num2);
+Precedência de sinais:
+()
+**
+& / %
++ e -
+
+Operador de incremento
+LET CONTADOR = 1;
+Contador++
+Vai adicionar 1
+Se eu quiser ir aumentando um por um eu coloco o incremento na quantidade de vezes;
+Sempre que precisar fazer isso utiliza-se o let
+O ++ pode vir antes e depois
+O ++contador vai dar prioridade ao cálculo primeiro e vai dar o resultado
+Não retém o mesmo valor
+E a subtração pode ser com --, sendo de decremento
+É bom não misturar muita coisa
+
+Você pode criar um passo = 2; e vai pular de 2 em 2
+Utilizar-se do contador += passo; equivale a:contador = contador+50 (que é o número de passo)
+contador = 2;
+contador *= 2;
+Operadores de atribuição *= += **=
+
+Se você colocar um número como string '5' e colocar parseInt('5') ele vai voltar a ser do tipo número
+Transforma em número inteiro
+Parênteses () normalmente é quando você pede para uma ação ser realizada
+ParseFloat retorna os números decimais ('5.2')
+parseInt (inteiro), parseFloat(decimais)
+Ou utilizar Number('5.2) que faz a correção automaticamente

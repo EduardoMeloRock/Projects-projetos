@@ -1,0 +1,41 @@
+/*
+Operadores de comparação
+> maior que 
+>= maior que ou igual a
+< menor que
+<= menor que ou igual a
+== igualdade (valor) ***** não é utilizado
+=== igualdade estrita (valor e tipo)
+!= diferente (valor) ****** não é utilizado
+!== diferente estrito (valor e tipo)
+*/
+
+console.log(10>5);
+
+Operadores lógicos
+&& -> and -> E -> Todas as expressões precisam ser true para retornar true
+|| -> or -> ou -> se uma não der, a outra vai, todas não precisam ser verdadeiras
+! -> NOT -> não
+
+const expresaoOr = true || false;
+
+Pro usuário poder logar no sistema os dados tem que ser verdadeiros
+Usuário e senha
+const usuario = 'Luiz';
+const senha = '123456';
+
+const vaiLogar = usuario === 'Luiz' && senha === '123456';
+console.log(vaiLogar);
+
+Você colocando por exemplo
+console.log(!false); ele retorna como verdadeiro, já que o ! está negando
+
+Em javascript tudo pode ser avaliado, ou é verdadeiro ou falso
+
+Todos os valores avaliados como falso no javascript
+Falsy
+*false
+0
+'' "" `` 
+null / undefined
+NaN

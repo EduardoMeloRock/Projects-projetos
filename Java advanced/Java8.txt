@@ -1,0 +1,36 @@
+Arrays são uma lista, uma coleção de coisas
+
+const alunos = ['Luiz', 'Maria', 'João'] 
+Isso vai formar arrays
+Strings são indexadas, eles tem índice de cada letra
+Arrays também são indexados, mas por elementos
+Se tem 3 elementos, então é 0 1 2
+Você pode substituir um elemento específico do array utilizando índice
+Se você quer alterar um valor citado anteriormente você utiliza:
+Alunos[0] = 'Eduardo';
+Vai alterar a informação anterior do índice 0 para a nova, que é Eduardo
+Pra saber o tamanho do array você utiliza
+console.log(alunos.length);
+Vai mostrar a quantidade de números presentes
+alunos.push('Ranger');
+Vai adicionar um novo elemento ao final
+Você adiciona alunos novos na lista
+Pra adicionar no começo você utiliza
+alunos.unshift('Luiza');
+
+O alunos.pop remove um aluno do elemento
+Pra salvar o elemento que foi removido com pop você utiliza
+const removido = alunos.pop();
+Vai salvar o elemento removido como uma variável
+O shift vai eliminar o primeiro elemento
+E o pop remove o último
+Pra remover um elemento do índice sem eliminar o índice em si
+Você utiliza delete alunos[1];
+
+console.log(alunos.slice(0, 2));
+Vai cortar elementos, você vai selecionar elementos apenas até determinado índice;
+
+console.log(alunos instanceof Array);
+
+Dados primitivos são imutáveis, como: number, string, boolean, undefined, null, symbol e bigint
+Outros são mutáveis como arrays e objetos (objetos são mutáveis, com exceção de null)

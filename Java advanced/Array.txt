@@ -1,0 +1,29 @@
+Split transforma string em array
+const nome = nomes.split(', ');
+Pro array voltar a ser string você usa o join
+
+Splice
+
+const nomes [ 'Maria', 'João', 'Eduardo', 'Gabriel', 'Julia'];
+
+nomes.splice(4, 1);
+console.log(nomes, removidos);
+Negativo é invertido, em termos de índices
+O 0 começa no primeiro e o -1 começa pelo último
+Max_value é o valor máximo do java
+
+
+const removidos = nome.splice(3, 1, 'Luiz');
+
+push adiciona elementos
+Unshift adiciona o primeiro elemento
+
+O concat concatena os arrays mantendo o tipo delas
+
+const a1 = [1, 2, 3];
+const a2 = [4, 5, 6];
+const a3 = a1.concat(a2, [7, 8, 9], 'Luiz';
+
+console.log(a3);
+
+Filter, map e reduce são os mais importantes do array no js

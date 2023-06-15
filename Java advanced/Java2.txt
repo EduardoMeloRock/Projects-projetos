@@ -1,0 +1,21 @@
+É bom sempre clarificar os termos, deixar bem claro, pra não haver confusão
+Pra você definir uma variável é bom utilizar a crase `` junto de ${} deixando mais legível
+ECMASCRIPT é uma linguagem específica de uma empresa
+Com var você consegue declarar e redeclarar a vontade, o que não é preferível
+Nome de variável é chave
+Null significa nulo
+Null é pra deixar vazio, e talvez preencher novamente
+Undefined nunca é utilizado no seu código realmente
+const boolean = true; or false;
+Só pode ser verdadeiro ou falso;
+É utilizado por exemplo, se um aluno está aprovado ou não está;
+O boolean vai muito além
+Const, let
+console.log(typeof) você vê que tipo é a variável específica;
+Todos esses citados são dados primitivos
+O sinal de = é chamado de alterador de atribuição
+const a = [1, 2];
+const b = a;
+console.log(a,b)
+O b.push(3) empurrou o valor 3 no resultado acima
+String, number, undefined, null, boolean, symbol (são dados primitivos);

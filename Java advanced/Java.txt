@@ -1,0 +1,34 @@
+Pra você digitar algo no javascript você tem que utilizar aspas simples
+'Green Ranger'
+Ou aspas duplas "Green Ranger"
+Pras aspas aparecem no terminal você utiliza " 'Green Ranger' ";
+Ou vice-versa
+Usando ` ` no texto você pode usar tanto aspas simples como dupla
+São dados chamados strings
+String = texto;
+
+Comentário de linha // e comentário de bloco /* */
+
+Windows no terminal usa barra invertida \
+
+React aprender e dominar
+
+Node e chrome não se comportam de maneira igual
+Posso colocar alert
+Há funções diferentes no node e chrome
+Src significa source
+
+Eu posso declarar a variável e não especificar de cara
+let nome;
+nome = 'João' // Inicializando a variável
+
+Não se pode criar variáveis com palavras reservadas do java
+
+N é abreviação de nome
+Sempre utilizar nomes significativos na variável, para identificar mais facilmente
+Não pode começar uma variável com um número
+Não podem conter espaços ou traços
+Modo camelCase (cada palavra posterior a primeira seria iniciado com maiúscula);
+Case-sensitive, você utilizar maiúscula ou minúscula em certas palavras o java vai interpretar como variáveis diferentes;
+Não se pode redeclarar variáveis com Let
+Não utilizar Var, sempre utilizar o Let

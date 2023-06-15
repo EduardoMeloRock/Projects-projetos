@@ -1,0 +1,24 @@
+numeroTitulo
+
+Pra alterar a propriedade de um número, pra mudar de string pra número
+Você usa numero = Number(numero);
+
+Raiz quadrada: 7.429586495895986
+55.1987555 é inteiro: false
+É NaN: false
+Arredondando para baixo: 55
+Arredondando para cima: 56
+Com duas casas decimais: 55.20
+
+let numero = prompt('Digite um número:');
+numero = Number(numero);
+document.getElementById('numero-titulo');
+const numeroTitulo = document.getElementById('numero-titulo');
+const texto = document.getElementById('texto');
+
+numeroTitulo.innerHTML = numero;
+texto.innerHTML = `<p>Seu número + 2 é ${numero + 2}.</p>`;
+toFixed permite o número ter casas decimais
+Pra adicionar coisas na página e não ficar só uma informação
+Você adiciona o +=
+Pra limpar você coloca o texto.innerHTML = '';

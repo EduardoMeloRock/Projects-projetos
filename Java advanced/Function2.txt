@@ -1,0 +1,18 @@
+Quando for utilizar o this
+Você pode utilizar o bind(this) pra definir onde você quer que
+O this seja chamado
+
+Funcão construtora inicia com palavra maiúscula
+Função construtora usa new
+Vai refazendo tudo em cada objeto novo
+Factory function precisa de vírgula
+
+Você pode usar o return pra parar a função
+
+Function recursiva, função que se chama de volta
+
+Função geradora
+yield
+O yield vai ficar retornando na ordem
+Se tiver três valores, o yield vai retornar o primeiro
+Depois o segundo e o terceiro
