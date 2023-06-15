@@ -1,0 +1,211 @@
+const a = [1, 2];
+const b = a;
+console.log(a, b);
+
+b.push(3);
+console.log(a, b);
+let num1 = prompt('Digite um número:');
+let num2 = prompt('Digite outro número');
+
+console.log(num1, num2);
+
+num1 = Number(num1);
+num2 = Number(num2);
+
+console.log(num1 + num2);
+
+let varA = 'A';
+let varB = 'B';
+let varC = 'C';
+
+
+
+[varA, varB, varC] = [varB, varC, varA]
+
+console.log(varA, varB, varC)
+
+let umaString = "O rato roeu a roupa do rei de Roma.";
+
+console.log (umaString.slice(2, 6));
+
+
+const pessoa1 = {
+    nome: 'Luiz',
+    sobrenome: ' Miranda',
+    idade:25,
+
+    fala () {
+        console.log (`${this.nome} ${this.sobrenome} está falando oi!`);
+    }
+}
+pessoa1.fala();
+// E escrever algo 
+console.log ('Olá mundo!');
+console.log ('Linha 1');
+console.log ('Linha 2');
+/* um bloco de código
+funciona em bloco */
+console.log ('Linha 3');
+console.log ('Linha 4');
+
+const primeiroNumero = 5;
+const segundoNumero = 10;
+const resultado = primeiroNumero * segundoNumero;
+const resultaDuplicado = resultado * 2;
+let resultadoTriplicado = resultado * 3;
+resultadoTriplicado = resultadoTriplicado+ 5;
+
+console.log(resultado);
+console.log(resultaDuplicado);
+console.log(resultadoTriplicado);
+
+console.log( typeof(primeiroNumero));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+</head>
+<body>
+    <form class="form" action="" method="get">
+        <p>Nome: <Input type="text" class="nome"></p>
+        <p>Sobrenome: <Input type="text" class="sobrenome"></p>
+        <p>Peso: <Input type="text" class="peso"></p>
+        <p>Altura: <Input type="text" class="altura"></p> 
+        <button>Enviar</button>
+    </form>
+
+    <div class="resultado"></div>
+
+    <script src="exercise.js"></script>
+</body>
+</html>
+function meuEscopo() {
+    const form = document.querySelector('.form');
+    const resultado = document.querySelector('.resultado');
+
+    const pessoas = [];
+
+    function recebeEventoForm(evento) {
+        evento.preventDefault();
+        const nome = form.querySelector('.nome');
+        const sobrenome = form.querySelector('.sobrenome');
+        const peso = form.querySelector('.peso');
+        const altura = form.querySelector('.altura');
+
+        console.log(nome.value, sobrenome, peso, altura);
+    }   pessoas.push({
+        nome: nome.nodeValue,
+        sobrenome: sobrenome.value,
+        peso: peso.value,
+        altura: altura.value
+    });
+    
+    console.log(pessoas);
+
+    resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ` + `${peso.value} ${altura.value}</p>`;
+
+    form.addEventListener('submit', recebeEventoForm);
+}
+const raiz = n => n **0.5;
+
+console.log(raiz(9));
+console.log(raiz(16));
+console.log(raiz(25));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="test.js">
+    </script>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="class2.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="class3.js"></script>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>O seu número é <span id="numero-titulo">0</span></h1>
+        <div id="texto"></div>
+    </section>
+    
+    <script src="practice.js"></script>
+ 
+</body>
+</html>
+console.log ('Green Ranger');
+console.log ("Green Ranger");
+
+console.log (35,  15.85, 'Green Ranger De Novo');
+
+console.log ('Meu nome é "Eduardo". Estou aprendendo JavaScript às', 10, 'da manhã');
+/** 
+ Aritméticos + - / * tem os ** (potenciação)
+% resto da divisão
+ */ 
+ 
+let contador= 1;
+contador++
+console.log(contador);
+let numero = prompt('Digite um número:');
+numero = Number(numero);
+document.getElementById('numero-titulo');
+const numeroTitulo = document.getElementById('numero-titulo');
+const texto = document.getElementById('texto');
+
+numeroTitulo.innerHTML = numero;
+
+texto.innerHTML = '';
+texto.innerHTML += `<p>É NaN: ${Number.isNaN(numero)}.</p>`;
+texto.innerHTML += `<p>Raiz quadrada: + 2 é ${numero ** 0.5}.</p>`;
+texto.innerHTML += `<p>${numero} é inteiro: ${Number.isInteger(numero)}.</p>`;
+texto.innerHTML += `<p>Arredondando para baixo: ${Math.floor(numero)}.</p>`;
+texto.innerHTML += `<p>Arredondando para cima: ${Math.ceil(numero)}.</p>`;
+texto.innerHTML += `<p>Com duas casas decimais: ${numero.toFixed(2)}.</p>`;
+console.log('Oi');
+let nome = 'Green Ranger'; // String
+ 
+
+console.log(nome, 'nasceu em 1984');
+console.log('Em 2000', nome, 'conheceu Maria.');
+console.log(nome, 'casou-se com Maria em 2012.');
+console.log('Maria teve 1 filho com', nome, 'em 2015');
+console.log('O filho de', nome, 'se chama Eduardo.');
