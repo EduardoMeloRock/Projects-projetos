@@ -1,0 +1,617 @@
+* {
+    box-sizing:border-box;
+
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+html {
+    margin:0;
+    padding:0;
+   
+}
+
+
+.logo {
+    position:relative;
+    height:auto;
+    width:20%;
+    left:-15px;
+    top:-15px;
+}
+
+.descr {
+    position:relative;
+    left:230px;
+    top:-80px;
+}
+
+.image-logo {
+    background-color:white;
+}
+
+.nav {
+    position:relative;
+    height:auto;
+    width:20px;
+    left:290px;
+    top:-105px;
+}
+
+.nav-1 {
+    position:relative;
+    left:310px;
+    top:-140px;
+}
+
+
+
+.organization {
+    position:absolute;
+    width:60px;
+    height:44px;
+    left:480px;
+    background-color:lightgrey;          
+}
+
+.organization:hover {
+transition: all 300ms ease-in-out;
+color:black;
+}
+
+.nav-input {
+    position:relative;
+    top:-185px;
+    left:530px;
+    height:45px;
+    width:450px;
+}
+
+.search {
+    position:relative;
+    height:auto;
+    width:45px;
+    top:-230px;
+    left:980px;
+    background:#F3A847;
+}
+
+.nav-one {
+    position:relative;
+    top:-275px;
+    left:1050px;
+    font-size:15px;
+}
+
+.nav-two {
+    position:relative;
+    top:-255px;
+    left:920px;
+    font-size:20px;
+}
+
+.carro {
+    position:relative;
+    height:auto;
+    width:50px;
+    left:1200px;
+    top:-302px;
+}
+
+.carrin {
+    position:relative;
+    left:1255px;
+    top:-325px;
+}
+
+.menu-one {
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    top:-300px;
+    letter-spacing:0.5px;
+   
+}
+
+.menu-one ul {
+    list-style:none;
+    display:flex;
+}
+
+.menu ul li {
+  display:flex;
+  line-height:3px;
+  font-size:18px; 
+  color:white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.two {
+    position:relative;
+    left:10px;
+}
+
+.three {
+    position:relative;
+    left:21px;
+}
+
+.four {
+    position:relative;
+    left:31px;
+}
+
+.five {
+    position:relative;
+    left: 40px;;
+}
+
+.six {
+    position:relative;
+    left:49px;
+}
+
+.seven {
+    position:relative;
+    left:58px;
+}
+
+.menu-one {
+    background-color:#232F3E;
+    width:100%;
+    position:relative;
+}
+
+.bg img {
+    position:relative;
+    top:-300px;
+    height:auto;
+    width:100%;
+}
+
+.background-one {
+    background-color:black;
+}
+
+.back-2 {
+    position:relative;
+    top:-320px;
+}
+
+
+.list {
+    background:white;;
+    position:relative;
+    height:400px;
+    width:400px;
+    top:-1500px;
+    left:30px;
+}
+
+.header {
+    position:relative;
+    font-size:25px;
+    top:7px;
+    left:30px;
+}
+
+.img-one {
+    position:relative;
+    top:-1860px;
+    left:35px;
+    height:auto;
+    width:200px;
+}
+
+.img-two {
+    position:relative;
+    top:-2006px;
+    left:240px;
+    height:124px;
+    width:180px;
+}
+
+.img-three {
+    position:relative;
+    top:-1994px;
+    left:240px;
+    height:124px;
+    width:180px;
+}
+
+.img-four {
+    position:relative;
+    top:-2140px;
+    left:35px;
+    height:124px;
+    width:200px;
+}
+
+.fone {
+    position:relative;
+    top:-1860px;
+    left:40px;
+    
+}
+
+.ftwo {
+    position:relative;
+    top:-1845px;
+    left:40px;
+    
+}
+
+.fthree {
+    position:relative;
+    top:-1992px;
+    left:250px;
+    
+}
+
+.ffour {
+    position:relative;
+    top:-2298px;
+    left:250px;
+    
+}
+
+.veja {
+    position:relative;
+    top:-2115px;
+    left:42px;
+    font-size:12px;
+    color:lightblue;
+}
+
+.imag-one {
+    position:relative;
+    top:-2860px;
+    left:460px;
+    height:auto;
+    width:178px;
+    
+    
+}
+
+.imag-two {
+    position:relative;
+    top:-2849px;
+    left:460px;
+    height:124px;
+    width:180px;
+}
+
+.imag-three {
+    position:relative;
+    top:-2995px;
+    left:645px;
+    height:124px;
+    width:190px;
+}
+
+.imag-four {
+    position:relative;
+    top:-3286px;
+    left:643px;
+    height:112px;
+    width:191px;
+}
+
+.foone {
+    position:relative;
+    top:-2700px;
+    left:465px;
+    
+}
+
+.fotwo {
+    position:relative;
+    top:-3005px;
+    left:465px;
+    
+}
+
+.fothree {
+    position:relative;
+    top:-2992px;
+    left:650px;
+    
+}
+
+.fofour {
+    position:relative;
+    top:-3286px;
+    left:650px;
+    
+}
+
+.vejaa {
+    position:relative;
+    top:-3095px;
+    left:465px;
+    font-size:12px;
+    color:lightblue;
+}
+
+.list-one {
+    background:white;;
+    position:relative;
+    height:400px;
+    width:400px;
+    top:-2499px;
+    left:447px;
+    
+}
+
+.headerr {
+    position:relative;
+    font-size:20px;
+    top:7px;
+    left:30px;
+    
+}
+
+.list-two {
+    background:white;;
+    position:relative;
+    height:400px;
+    width:400px;
+    top:-3473px;
+    left:865px;
+    
+}
+
+.headerrr {
+    position:relative;
+    font-size:20px;
+    top:7px;
+    left:30px;
+}
+
+.imagem-one {
+    position:relative;
+    top:-3837px;
+    left:880px;
+    height:auto;
+    width:370px;
+}
+
+.sub {
+    position:relative;
+    top:-3820px;
+    left:900px;
+    color:lightblue;
+    font-size:14px;
+}
+
+.adve {
+    position:relative;
+    top:-3775px;
+    left:866px;
+    height:auto;
+    width:400px;
+}
+
+.list-three {
+    background:white;;
+    position:relative;
+    height:332px;
+    width:400px;
+    top:-4112px;
+    left:448px;
+    
+}
+
+.headerrrr {
+    position:relative;
+    font-size:20px;
+    top:-215px;
+    left:35px;
+}
+
+.new-img {
+    position:relative;
+    top:47px;
+    left:65px;
+    height:auto;
+    width:220px;
+}
+
+.cueca {
+    position:relative;
+    top:30px;
+    left:35px;
+}
+
+.list-four {
+    background:white;;
+    position:relative;
+    height:332px;
+    width:400px;
+    top:-4445px;
+    left:30px;
+
+}
+
+.new-imgg {
+    position:relative;
+    left:100px;
+    top:16px;
+}
+
+.headerrrrr {
+    position:relative;
+    font-size:20px;
+    top:-215px;
+    left:35px;
+}
+
+.cuecaa {
+    position:relative;
+    font-size:15px;
+    left:30px;
+    top:20px;
+}
+
+.consumidor {
+    background:white;;
+    position:relative;
+    height:222px;
+    width:1236px;
+    top:-4425px;
+    left:30px;
+}
+
+.last {
+    position:relative;
+    height:auto;
+    width:250px;
+    top:-0px;
+    left:30px;
+}
+
+.last-1 {
+    position:relative;
+    height:auto;
+    width:170px;
+    left:55px;
+    top:10px;
+    
+}
+.last-2 {
+    position:relative;
+    height:auto;
+    left:110px;
+    height:170px;
+    top:-12px;
+}
+.last-3 {
+    position:relative;
+    height:auto;
+    left:140px;
+    top:-12px;
+    width:220px;
+}
+
+.last-4 {
+    position:relative;
+    height:auto;
+    left:190px;
+    width:220px;
+}
+
+.head {
+    position:relative;
+    top:-145px;
+    left:-920px;
+    font-size:25px;
+}
+
+.eight {
+    position:relative;
+    left:70px;
+}
+
+.ending-one {
+    background-color:#232F3E;
+    position:relative;
+}
+
+.consumidor-one {
+    background:#485769;
+    position:relative;
+    height:102px;
+    width:1327px;
+    top:-4400px;
+    left:0px;
+}
+
+.cabeca {
+    color:white;
+    position:relative;
+    top:40px;
+    left:630px;
+}
+
+.consumidor-two {
+    background:#232F3E;
+    position:relative;
+    height:300px;
+    width:1327px;
+    top:-4430px;
+    left:0px;
+}
+
+h2 {
+    color:white;
+}
+
+.figure {
+    position:relative;
+    left:80px;
+    top:40px;
+    font-size:20px;
+}
+
+.figure-1 {
+    position:relative;
+    left:340px;
+    font-size:20px;
+    top:-153px;
+}
+
+.figure-2 {
+    position:relative;
+    left:700px;
+    font-size:20px;
+    top:-320px;
+    font-size:20px;
+}
+
+.figure-3 {
+    position:relative;
+    left:920px;
+    font-size:20px;
+    top:-398px;
+    font-size:20px;
+}
+
+.um {
+    color:lightgrey;
+    font-size:15px;
+    position:relative;
+    top:50px;
+    left:80px;
+    line-height:1.5;
+}
+
+.Dois {
+    color:lightgrey;
+    font-size:15px;
+    position:relative;
+    top:-140px;
+    left:350px;
+    line-height:1.5;
+}
+
+.tres {
+    color:lightgrey;
+    font-size:15px;
+    position:relative;
+    top:-315px;
+    left:700px;
+    line-height:1.5;
+}
+
+.quatro {
+    color:lightgrey;
+    font-size:15px;
+    position:relative;
+    top:-395px;
+    left:920px;
+    line-height:1.5;
+}

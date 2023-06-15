@@ -1,0 +1,307 @@
+:root {
+    --primary-color:white;
+    --secondary-color:#c8b273;
+    --gap:3rem;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+    height:300rem;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3rem;
+    color:var(--secondary-color)
+    line-height:1.5;
+    background:linear-gradient(90deg, rgba(177, 64, 200, 1) 0%;
+                rgba(109, 9, 121, 1) 35%, rgba(45, 1, 62, 1) 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size:2rem;
+    text-transform:uppercase;
+    position:relative;
+    top:25px;
+    left:20px;
+    
+     
+}
+
+h2 {
+    font-size:2rem;
+    text-transform:uppercase;
+}
+
+
+.menu ul {
+    list-style:none;
+    display:flex;
+}
+
+.menu ul li a {
+    display:block;
+    padding:2rem;
+    color:white;
+    text-transform:uppercase;
+    position:relative;
+    left:-20px;
+}
+
+.menu ul li a::after {
+    content:'';
+    position:absolute;
+    bottom:1rem;
+    left:50%;
+    width:0;
+    height:0.2rem;
+    background:purple;
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+    width:50%;
+    left:25%;
+}
+
+.main-content {
+    display:flex;
+    justify-content:space-between;
+    color:
+    position:relative;
+    left:5px;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+.main-bg {
+    background-color:black;
+}
+
+.glow {
+    font-size: 40px;
+    color: #ffffff;
+    text-align:center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                     0 0 60px  #9554b3,  0 0 70px #9554b3;   
+    }
+    to {
+        text-shadow: 0 0 20px #eeeeee, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.image {
+    position:absolute;
+    top:100px;
+    left:20px;
+}
+
+.lightning {
+    position:relative;
+    top:800px;
+    left:400px;
+}
+
+.image-two img {
+    height:auto;
+    width:60%;
+    position:relative;
+    top:850px;
+    left:500px;
+}
+
+.description {
+    
+    position:relative;
+    top:500px;
+    left:50px;
+    font-size:16px;
+    text-transform:none;
+    line-height:1.5;
+}
+
+.image-two {
+    position:relative;
+    height:auto;
+}
+
+.lord img {
+    position:relative;
+    top:900px;
+    left:80px;
+    height:auto;
+    width:40%;
+}
+
+.darkonda {
+    position:relative;
+    left:800px;
+    top:400px;
+    text-transform:uppercase;
+}
+
+.descr {
+    position:relative;
+    padding-top:30px;
+    left:-50px;
+    text-transform:none;
+
+}
+
+.grid-main-heading {
+    position:relative;
+    top:900px;
+    left:600px;
+}
+
+.glow-1 {
+        font-size: 25px;
+        color: #ffffff;
+        
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                         0 0 60px  #9554b3,  0 0 70px #9554b3;   
+        }
+        to {
+            text-shadow: 0 0 20px #eeeeee, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+
+    .grid-main-heading {
+        font-size: 25px;
+        color: #ffffff;
+        
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                         0 0 60px  #9554b3,  0 0 70px #9554b3;   
+        }
+        to {
+            text-shadow: 0 0 20px #eeeeee, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+    
+.one {
+    position:relative;
+    top:1000px;
+    left:-500px;
+    height:60%;
+    width:70%;
+}
+
+#grid-two, .two {
+    position:relative;
+    top:420px;
+    left:650px;
+    width:50%;
+}
+
+#grit-three, .three {
+    position:relative;
+    top:420px;
+    left:125px;
+    width:40%;
+}
+
+#grid-four, .four {
+    position:relative;
+    width:40%;
+    top:112px;
+    left:700px;
+}
+
+#grid-five, .five {
+    position:relative;
+    width:75%;
+    top:130px;
+    left:160px;
+}
+
+.contact-form {
+    color:white;
+    position:relative;
+    top:200px;
+}
+
+.form-group {
+    position:relative;
+    line-height:3;
+    left:5px;
+    
+}
+
+.contact-form {
+    grid-column:span 2;
+}
+
+.contact-form {
+    border:none;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+
+.form-group {
+    flex: 1 1 320px;
+}
+
+.form-group label {
+    border:none;
+    margin-bottom:2rem;
+}
+
+.form-group input, .form-group textarea {
+    background:white;
+    padding:5px;
+    outline:none;
+}
+
+.form-group button {
+    border: 0.3rem solid white;
+    background:white;
+    padding:5px;
+    cursor:pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    background:grey;
+    color:purple;
+}
+
+.form-group input, .form-group textarea {
+    box-shadow:0px 0px 10px 2px #5d1336;
+}
