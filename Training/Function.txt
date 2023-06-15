@@ -1,0 +1,55 @@
+Uma função de expressão é quando você cria uma variável e joga a função como resultado de uma const ou variável
+Pode tratar como um dado, é first-class
+
+() dentro da função são parâmetros
+Arguments sustentam todos os valores que foram pra um parametro vazio
+
+function funcao() {
+console.log(arguments[10]);
+}
+funcao(Valor, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+function funcao() {
+let total = 0;
+for (let argumento of arguments) {
+total += argumento;
+}
+
+console.log(total);
+arguments sustenta todos os argumentos enviados
+
+Try to create a discount
+
+
+function funcao ({nome, sobrenome, idade}) {
+console.log(nome, sobrenome, idade)
+}
+
+funcao({nome: 'Eduardo', sobrenome: 'Melo', idade: 23});
+
+function conta(operador, acumulador, numeros) {
+console.log(operador, acumulador, numeros);
+}
+conta('+', 0, 20, 30, 40, 50);
+... é o rest operator, você não precisa usar [] nos arrays
+
+
+function conta (operador, acumulador, ...numeros) {
+for(let numero of numeros) {
+if (operador === '+') acumulador += numero;
+if (operador === '-') acumulador -= numero;
+if (operador === '/') acumulador /= numero;
+if (operador === '*') acumulador *= numero;
+}
+
+console.log(acumulador);
+}
+
+conta('+', 1, 20, 30, 40, 50);
+Quando é function expression deve-se utilizar ;
+Arrow function não vai ter arguments
+
+addEventListener adiciona uma ação
+Qode ser feito document.onclick
+document.addEventListener('click', function() {
+	document.body.style.backgroundColor = 'red';

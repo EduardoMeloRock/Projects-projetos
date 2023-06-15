@@ -1,0 +1,48 @@
+String são linhas de texto, que utilizam
+'' "" e ``
+
+Função são conjuntos de instruções e códigos visando executar uma tarefa
+
+Pra trazer o alert eu utilizei o código
+<script>
+	function funcao1() {
+	alert("Eu sou um alert!");
+
+<input type="button" onclick="funcao1()" value:"Exibir Alert">
+
+A string é normalmente utilizada pra manter dados que são realizados em texto
+Assim como number é preferível possuir números
+
+Objetos são como objetos na vida real, que possuem características e são tangíveis
+Você dá propriedades aos objetos, características 
+
+Diferença entre funções e objetos
+A função ela vai executar instruções e ações para executar uma ação, ela não pode ter uma ação sobre ela
+Enquanto objetos podem ser alterados e instruídos
+Suas características podem ser alteradas e ele pode sofrer ações
+
+Vale notar que nomes de propriedade não podem ter hífen e número, não são identificadores válidos
+Só podem ser acessados utilizando-se de colchetes
+
+Você pode puxar uma variável string utilizando []
+
+Integer significa inteiro, transformar um número em inteiro
+O laço for vai possuir ordem arbitrária de seus componentes, sendo utilizado principalmente em numéricos
+
+No for statemente você normalmente vai inicializar com uma nova variável
+Vai colocar a condição no meio
+E vai ter o resultado após a condição
+Por exemplo
+
+let str = ''; 
+
+for (let i=0; i < 9; i++) {
+	str= str + i;
+}
+
+Eu adicionei a variável i em let, e se i for menor que 9 vai adicionar mais 1
+No fim adiciona-se o valor de i em str;
+
+Math é um built-in object no javascript, ele lida com valores numéricos
+
+O setInterval aparentemente vai receber uma function dentro, em que você pode gerar chaves
