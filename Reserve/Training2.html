@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label for="date">Date:</label>
+                <input type="datetime-local" id="date" name="date" value="2020-04-20T20:00">
+        </p>       
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <label for="time">Time:</label>
+                <input type="time" id="time" value="20:00" >
+        </p>        
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <label for="email">Seu email:</label>
+                <input type="email" id="email" placeholder="ex@gmail.com" >
+        </p>        
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <label for="File">Sua foto:</label>
+                <input type="File" id="File" accept=".png,.svg,image/*" multiple>
+        </p>        
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p> <p>
+            <label for="password">Password:</label>
+                <input type="password" id="password" placeholder:Digite sua senha>
+        </p>        
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+    </p> <p>
+        <label for="tick">Range:</label>
+            <input type="range" id="tick" min="0" max="100" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+
+              </datalist>
+    </p>        
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </p>
+    <p>
+        <label for="url">Sua URL:</label>
+        <input type="url" id="url" name="url" placeholder="Sua URL">
+    </p>
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </p>
+    <p>
+        <label for="select">Selecione uma opção:</label>
+        <select>
+            <optgroup Label="Teste">
+            <option value="qualquer1" label="label-1">Valor</option>
+            <option value="qualquer2" label="label-2">Valor</option>
+            <option value="qualquer3" label="label-3">Valor</option>
+            <option value="qualquer4" label="label-4">Valor</option>
+            </optgroup>   
+        </select>
+
+        
+    </p>
+    </form>
+</body>
+</html>

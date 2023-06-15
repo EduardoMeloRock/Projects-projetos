@@ -1,0 +1,21 @@
+.heading:hover {
+    background:red;
+}
+.heading {
+    transition: all 1s ease-in-out;
+}
+a:link {
+    color:pink;
+}
+a:visited {
+    color:brown;
+}
+input:checked + p {
+    background:red;
+}
+.pai .lista li:last-child {
+    background:red;
+}
+p:not(.meio) {
+    color:blue;
+}

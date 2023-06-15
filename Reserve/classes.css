@@ -1,0 +1,14 @@
+.main-bg {
+    background-image: url(endless-constellation.svg);
+    background-position: center center;
+    background-size:cover;
+    color: var(--white-color)
+}
+.main-content {
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: var(--gap)
+}
+.section {
+    min-height:100vh;
+}
